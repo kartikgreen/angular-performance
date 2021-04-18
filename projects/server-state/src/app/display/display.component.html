@@ -1,0 +1,5 @@
+<section>
+    <ng-container *ngFor="let item of serverInformation;">
+        <p appBgColor [isColorState]="item.serverState"> The {{item.name}} is {{item.serverState}}</p>
+    </ng-container>
+</section>
